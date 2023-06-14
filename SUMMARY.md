@@ -8,4 +8,4 @@
 
 ## 💡 Tutorials
 
-* [Placeholder for now](tutorials/placeholder-for-now.md)
+* [Capturing Your DJ Controller Output](tutorials/capturing-your-dj-controller-output.md)
