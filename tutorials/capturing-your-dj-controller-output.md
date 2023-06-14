@@ -11,6 +11,7 @@ description: >-
 
 * A DJ controller, PC and OBS.
 * A [Behringer UCA222 USB Audio Interface](#user-content-fn-1)[^1] ([Amazon price checker](https://webprice.eu/amazon/4033653030618/))
+* A pair of RCA cables. ([Amazon price checker](https://webprice.eu/amazon/B01D5H8P0G/))
 {% endhint %}
 
 
