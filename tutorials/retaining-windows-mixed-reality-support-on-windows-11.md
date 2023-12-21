@@ -35,8 +35,10 @@ _To revert this change you open WinUtil, go to **Updates** and press **Default S
 Requires Windows 11 Pro or Enterprise
 {% endhint %}
 
-1. Open start and search for **Edit group policy**\
-   ![](<../.gitbook/assets/image (2).png>)
+1.  Open start and search for **Edit group policy**\
+
+
+    <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 2.  Go to **Computer Configuration** -> **Administrative Templates -> Windows Components -> Windows Update.**\
 
 
