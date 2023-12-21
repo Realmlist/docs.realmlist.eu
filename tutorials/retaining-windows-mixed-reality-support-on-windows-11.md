@@ -1,6 +1,6 @@
 # Retaining Windows Mixed Reality support on Windows 11
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Win11 will drop support for WMR devices sometime soon and remove it entirely in Q4 2025.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Win11 will drop support for WMR devices sometime soon and remove it entirely in Q4 2024 for Windows Home and Pro versions, and Q4 2025 for Windows Enterprise versions.</p></figcaption></figure>
 
 One way of retaining WMR support is to stay on Windows 11 version 23H2 (or below) by disabling Windows feature updates but keeping security updates. _Those are important!_
 
