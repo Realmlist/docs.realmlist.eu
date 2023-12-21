@@ -4,6 +4,10 @@
 
 One way of retaining WMR support is to stay on Windows 11 version 23H2 (or below) by disabling Windows feature updates but keeping security updates. _Those are important!_
 
+
+
+## The easy 2-button way:
+
 The easiest way I know for changing what updates you get is by using WinUtil ([https://github.com/ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)):&#x20;
 
 1. Open Powershell as **admin** and paste: `iwr -useb https://christitus.com/win | iex`
@@ -17,3 +21,26 @@ The easiest way I know for changing what updates you get is by using WinUtil ([h
 </div>
 
 _To revert this change you open WinUtil, go to **Updates** and press **Default Settings.**_
+
+
+
+## The native Windows way (requires Windows 11 Pro or Enterprise):
+
+We will use Local Group Policy for this.
+
+
+
+1. Open start and search for Edit group policy\
+   ![](<../.gitbook/assets/image (2).png>)
+2.  Go to **Computer Configuration** -> **Administrative Templates -> Windows Components -> Windows Update.**\
+
+
+    <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+3.  Open **Manage updates offered from Windows Update** and double click **Select the target Feature Update version**, tick **Enabled** and fill in the options like stated in the screenshot below:\
+
+
+    <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
+
+4. Press **Apply** and **OK**, close all windows and reboot your computer.\
+   _Your windows installation will now stay on Windows 11 version 23H2 indefinitely._
