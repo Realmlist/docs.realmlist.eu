@@ -1,5 +1,7 @@
 ---
-description: TLDR; Do not update further than version 23H2.
+description: >-
+  TLDR; Do not update further than version 23H2. Below you'll find two ways to
+  disable future feature updates whilst still receiving security updates.
 ---
 
 # Retaining Windows Mixed Reality support on Windows 11
@@ -50,4 +52,4 @@ Requires Windows 11 Pro or Enterprise
 
 
 4. Press **Apply** and **OK**, close all windows and reboot your computer.\
-   _Your windows installation will now stay on Windows 11 version 23H2 indefinitely._
+   _Your Windows installation will now stay on Windows 11 version 23H2 indefinitely._
