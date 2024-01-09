@@ -3,7 +3,8 @@
 The [Mackie ProFXv3](https://mackie.com/en/products/mixers/profxv3-series) mixers do not have drivers for Linux, and its main output is on channels 3 & 4. Manjaro sees the mixer as a 4.0 surround device instead so we need to split channels 1-2 and 3-4.\
 \
 Assumptions: \
-\- You're using [Pipewire](https://pipewire.org/).
+\- You're using [Pipewire](https://pipewire.org/).\
+\- You're using the Mackie ProFX6v3.
 
 ## Splitting the channels:
 
