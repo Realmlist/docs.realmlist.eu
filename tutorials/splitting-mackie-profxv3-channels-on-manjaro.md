@@ -1,4 +1,4 @@
-# Mackie ProFXv3 on Manjaro
+# Splitting Mackie ProFXv3 channels on Manjaro
 
 Mackie does not have drivers for linux, and its main output is on channels 3 & 4. Manjaro sees the mixer as a 4.0 surround device instead so we need to split channels 1-2 and 3-4.\
 \
@@ -46,3 +46,11 @@ Assumptions: \
 
 5. When you have added both loopback devices to the config, reload pipewire with `systemctl --user restart pipewire.service`. Check in helvum (restart the app after restarting pipewire) if the loopback devices map to the correct outputs and test it with a test tone or some other audio to make sure.
 6. Once you have figured out the right mapping you're done. Don't forget to set your system audio to the loopback device instead of the raw device. This config is loaded every time pipewire starts.
+
+
+
+
+
+
+
+Original source: [https://www.reddit.com/r/linuxquestions/comments/vrimtn/splitting\_a\_pipewire\_alsa\_nodes\_channels/ievs15y/](https://www.reddit.com/r/linuxquestions/comments/vrimtn/splitting\_a\_pipewire\_alsa\_nodes\_channels/ievs15y/)
