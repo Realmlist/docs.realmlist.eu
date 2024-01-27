@@ -9,7 +9,7 @@ Assumptions: \
 ## Splitting the channels:
 
 1. Find the node name of your card. Just look through what `pw-cli list-objects | grep alsa_output` returns. One of them is your device's `node.name` .
-2. Copy the pipewire config file from `/usr/share/pipewire.conf` to `~/.config/pipewire/pipewire.conf`.
+2. Copy the pipewire config file from `/usr/share/pipewire/pipewire.conf` to `~/.config/pipewire/pipewire.conf`.
 3. Install helvum and check the names of the playback channels of the device. it will be a bunch of `playback_<x>`. The x is important later. Figure out which x is which physical output.
 4. Inside the newly created config file we're going to create two loopback devices inside the `context.modules` section. (One for 1-2 and one for 3-4)\
    \
